@@ -7,12 +7,12 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 .contenedor{
-	width: 95%;
-	max-width: 1124px;
+	width: 90%;
+	max-width: 1524px;
 	margin: 0 auto;
 
 	display: grid;
-	grid-gap: 0;
+	grid-gap: 0px;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(7, auto);
 
@@ -24,48 +24,49 @@ body{
 						 "sponsor sponsor"
 						 "footer footer";	
 }
-
+/*  --------------------------------------------  */
+/*                    header                      */
+/*  --------------------------------------------  */
 .contenedor .cabeceraPrincipal{
 	grid-area: header;
 	background-color: #B5EF8A;
 	display: flex;
 	justify-content: space-between;
 }
-
 .contenedor .cabeceraPrincipal .logotipo{
-	padding: 10px 20px;
+	padding: 10px 40px;
 }
-
-.contenedor .cabeceraPrincipal nav {
+.contenedor .cabeceraPrincipal nav{
 	display: flex;
 	align-items: center;
 }
-
-.contenedor .cabeceraPrincipal nav a {
+.contenedor .cabeceraPrincipal nav a{
 	text-decoration: none;
 	padding: 0 20px;
-	color: #65524d;
+	color: #65524D;
 }
-
-.contenedor .cabeceraPrincipal nav a:hover {
-	background-color: #65524d;
+.contenedor .cabeceraPrincipal nav a:hover{
+	background-color: #65524D;
 	color: #fff;
 }
-
-
-/* Header */
-
+/*  --------------------------------------------  */
+/*                    slider                      */
+/*  --------------------------------------------  */
 .contenedor .sliderPrincipal{
 	grid-area: slider;
 	background-color: #333;
 }
-
 .contenedor .sliderPrincipal img{
 	width: 100%;
 }
 
+.contenedor .titulo{
+	grid-area: titulo;
+	background-color: #fff;
+	text-align: center;
+}
 .contenedor .titulo h2{
-	color: #9c9b9b;
+	color: #9C9B9B;
 	font-size: 40px;
 	font-weight: 300;
 	padding: 30px 0;
@@ -73,23 +74,20 @@ body{
 
 .contenedor .adopcion1{
 	grid-area: adopta1;
-	background-color: #666;
+	background-color: #fff;
 	display: flex;
 	justify-content: space-between;
 }
-
-.contenedor .adopcion1 .cardog h3 {  
+.contenedor .adopcion1 .cardog h3{
 	font-size: 25px;
-	color:#817e9f;
+	color: #817E9F;
 	text-transform: uppercase;
 	padding: 5px 10px;
 }
-
-.contenedor .adopcion1 .cardog p {
+.contenedor .adopcion1 .cardog p{
 	padding: 5px 10px;
-	color: #605b5b
+	color: #605B5B;
 }
-
 .contenedor .adopcion2{
 	grid-area: adopta2;
 	background-color: #333;
@@ -102,32 +100,30 @@ body{
 	grid-area: sponsor;
 	background-color: #333;
 }
+/*  --------------------------------------------  */
+/*                    footer                      */
+/*  --------------------------------------------  */
 .contenedor .piePagina{
 	grid-area: footer;
-	background-color: #1b1b1b;
-	color: #a3a3a3;
+	background-color: #1B1B1B;
 	display: flex;
 	justify-content: space-between;
 }
 
-.piePagina .derechos {
-	color: #a3a3a3;
+.piePagina .derechos{
+	color: #A3A3A3;
 	padding: 30px 50px;
 }
-
-.contenedor .piePagina .redesSociales {
+.piePagina .redesSociales{
 	display: flex;
 	align-items: center;
 }
-
-.
-.contenedor .piePagina .redesSociales a {
-	color: #d7f171;
+.contenedor .piePagina .redesSociales a{
+	color: #D7F171;
 	text-decoration: none;
-	padding: 0 20px;
-	font-size: 25px;
+	padding: 0 15px;
+	font-size: 35px;
 }
-
-.contenedor .piePagina .redesSociales a:hover {
+.contenedor .piePagina .redesSociales a:hover{
 	color: #fff;
 }

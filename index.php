@@ -25,17 +25,21 @@
 		</nav>
 	</header>
 	<section class="sliderPrincipal">
-		<img src="images/dogs.jpg">
+		<img src="images/slider1.jpg">
 	</section>
-	<section class="título">
+	<section class="titulo">
 		<h2>Adopción</h2>
-	</section> 
-	<section class="adopcion1">
-		<img src="images/">
-		<h3>Noticia 1</h3>
-		<p></p>
 	</section>
-	<section class="adopcion2"><h3>Noticia 2</h3></section>
+	<section class="adopcion1">
+		<img src="images/dog1.jpg">
+		<section class="cardog">
+			<h3>Firulais</h3>
+			<p>Snares are silent killers laid by poachers across wild places to trap and kill animals for the illegal bushmeat tradeSnares are silent killers laid by poachers across wild places to trap and kill animals for the illegal bushmeat trade</p>
+			<button>Mas información</button>
+		</section>
+	</section>
+	<section class="adopcion2"><h3>Noticia 2</h3>
+		<a href="">enlace</a></section>
 	<section class="doctor">
 		<h3>Doctores</h3>
 	</section>
@@ -46,13 +50,11 @@
 		<section class="derechos">
 			<h6>Derechos Reservados UTPL 2022</h6>
 		</section>
-		<section class="redesSociales">
-			<nav>
-				<a href=""><i class="fa-brands fa-facebook"></i></a>
-				<a href=""><i class="fa-brands fa-instagram"></i></a>
-				<a href=""><i class="fa-brands fa-tiktok"></i></a>
-			</nav>
-		</section>
+		<nav class="redesSociales">
+			<a href=""><i class="fa-brands fa-facebook"></i></a>
+			<a href=""><i class="fa-brands fa-instagram"></i></a>
+			<a href=""><i class="fa-brands fa-tiktok"></i></a>
+		</nav>
 	</footer>
 </div>
 </body>

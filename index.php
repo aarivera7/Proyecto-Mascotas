@@ -18,9 +18,9 @@
 		<section class="logotipo"><img src="images/logotipoPet.png"></section>
 		<nav class="menuPrincipal">
 			<a href="#">Inicio</a>
-			<a href="#">Servicios</a>
+			<a href="internals/servicios.php">Servicios</a>
 			<a href="#">Productos</a>
-			<a href="#">Adopción</a>
+			<a href="internals/adopcion.php">Adopción</a>
 			<a href="#">Contactos</a>
 		</nav>
 	</header>
@@ -35,7 +35,7 @@
 		<section class="cardog">
 			<h3>Firulais</h3>
 			<p>Snares are silent killers laid by poachers across wild places to trap and kill animals for the illegal bushmeat tradeSnares are silent killers laid by poachers across wild places to trap and kill animals for the illegal bushmeat trade</p>
-			<button>Mas información</button>
+			<button class="button" type="button">Mas información</button>
 		</section>
 	</section>
 	<section class="adopcion2">
@@ -45,12 +45,13 @@
 			<p>
 				Snares are silent killers laid by poachers across wild places to trap and kill animals for the illegal bushmeat tradeSnares are silent killers laid by poachers across wild places to trap and kill animals for the illegal bushmeat trade
 			</p>
-			<button>Mas información</button>
+			<button type="button" class="button">Mas información</button>
 		</section>
 	</section>
-	<section class="titulo1">
+	<section class="titulo titulo1">
 		<h2>Doctores</h2>
 	</section>
+	
 	<section class="doctores">
 		<section class="doctor doctor1">
 			<img src="images/johny.png" alt="doctor1">
@@ -74,8 +75,12 @@
 			</article>
 		</section>
 	</section>
+
 	<section class="sponsor">
-		<h3>Sponsor</h3>
+		<figure class="logoSponsors">
+            <a href="https://www.utpl.edu.ec"><img src="https://www.utpl.edu.ec/sites/default/files/Recurso%201%403x.png" alt="UTPL" class="utpl img"></a>
+			<a href=".."><img src="images/logotipoPet.png" alt="Pets" class="imgPets img"></a>
+        </figure>
 	</section>
 	<footer class="piePagina">
 		<section class="derechos">

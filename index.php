@@ -19,9 +19,9 @@
 		<nav class="menuPrincipal">
 			<a href="#">Inicio</a>
 			<a href="internals/servicios.php">Servicios</a>
-			<a href="#">Productos</a>
+			<a href="internals/borrar.php">Borrar Personal</a>
 			<a href="internals/adopcion.php">Adopción</a>
-			<a href="#">Contactos</a>
+			<a href="internals/personal.php">Personal</a>
 		</nav>
 	</header>
 	<section class="sliderPrincipal">
